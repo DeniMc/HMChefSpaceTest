@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/navbar.css">
       <!-- Swiper CSS -->
-      <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
   </head>
@@ -1027,7 +1031,10 @@ To pay by Stripe please use the following link and follow the prompts<br>
   <script src="./scripts/navbar.js"></script>
 
     <!-- Swiper JS -->
-<script src="./scripts/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+      const swiper = new Swiper();
+    </script>
 
 <!-- JavaScript -->
 <script src="./scripts/app.js"></script>

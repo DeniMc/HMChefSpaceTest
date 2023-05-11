@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./styles/chefspace.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+   <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
   </head>
@@ -1361,7 +1363,11 @@ If all of your information seems correct but you still haven't received your pay
     </div>
 
       <!-- Swiper JS -->
-<script src="./scripts/swiper-bundle.min.js"></script>
+      <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper();
+      </script>
 
 <!-- JavaScript -->
 <script src="./scripts/app.js"></script>

@@ -18,7 +18,7 @@
   import loginCSS from '../styles/login.css';
   import navbarCSS from '../styles/navbar.css';
   import styleCSS from '../styles/style.css';
-  import swiperCSS from '../styles/swiper-bundle.min.css';
+  // import swiperCSS from '../styles/swiper-bundle.min.css';
   
   // Import JavaScript files
   import GPTJS from './GPT';
