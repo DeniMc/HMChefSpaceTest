@@ -24,7 +24,7 @@
   import GPTJS from './GPT';
   import logoutJS from './logout';
   import navbarJS from './navbar';
-  import swiperJS from './swiper-bundle.min.js';
+  // import swiperJS from './swiper-bundle.min.js';
   
   // You can use the imported files as needed in your application
   console.log(indexHTML);

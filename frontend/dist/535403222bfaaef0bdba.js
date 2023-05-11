@@ -1,0 +1,1 @@
+var logoutButton=document.getElementById("logout-button-chefspace");logoutButton.addEventListener("click",(function(){localStorage.removeItem("credentials"),window.location.href="login.html"}));
